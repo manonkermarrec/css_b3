@@ -1,0 +1,23 @@
+html{
+	font-style: avenir;
+}
+
+body{
+	font-family: "arial", "sans serif";
+	text-align: justify;
+}
+
+@media (min-width: 500px) and (max-width: 600px){
+	.container{
+	column-count: 1;
+}}
+
+@media (min-width: 600px) and (max-width: 1200px){
+	.container{
+	column-count: 2;
+}}
+
+ @media (min-width: 1200px){
+ 	.container{
+	column-count: 3;
+}}
