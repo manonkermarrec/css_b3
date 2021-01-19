@@ -7,6 +7,41 @@ body{
 	text-align: justify;
 }
 
+nav{
+	padding: 10;
+	margin: 0;
+	text-align: center;
+    background-color: #2C363F;
+}
+
+nav li {
+	display: inline;
+	list-style: none;
+}
+
+nav a{
+	text-decoration: none;
+	color: #E75A7C;
+	font-weight: bold;
+	font-size: 12px;
+	display:inline-block;
+	margin: 0 30px;
+}
+
+nav a:hover {
+	color: #F2F5EA
+}
+
+
+.container{
+	padding: 40;
+}
+
+
+
+
+
+
 @media (min-width: 500px) and (max-width: 600px){
 	.container{
 	column-count: 1;
