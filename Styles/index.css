@@ -1,6 +1,6 @@
 html{
 	font-style: avenir;
-	background-color: #F3F5EB;
+	background-color: #1B1C22;
 }
 
 body{
@@ -11,7 +11,7 @@ body{
 nav{
 	padding: 20;
 	text-align: center;
-    background-color: #2C363F;
+    background-color: #39D0B2;
 }
 
 nav li {
@@ -21,7 +21,7 @@ nav li {
 
 nav a{
 	text-decoration: none;
-	color: #E75A7C;
+	color: #1B1C22;
 	font-weight: bold;
 	font-size: 12px;
 	display:inline-block;
@@ -29,29 +29,24 @@ nav a{
 }
 
 nav a:hover {
-	color: #F2F5EA;
-	font-size: 16px;
+	color: #1B1C22;
+	text-decoration: underline;
 }
 
 a{
 	text-decoration: none;
 }
 
-.container{
-	padding: 40;
+p{
+	color: #FCFCFC;
 }
 
-@media (min-width: 500px) and (max-width: 600px){
-	.container{
-	column-count: 1;
-}}
+h1{
+color: #39D0B2
+}
 
-@media (min-width: 600px) and (max-width: 1200px){
-	.container{
-	column-count: 2;
-}}
-
- @media (min-width: 1200px){
- 	.container{
-	column-count: 3;
-}}
+h2{
+	font-size: 24px;
+	font-weight: bold;
+  	color: #39D0B2;
+}

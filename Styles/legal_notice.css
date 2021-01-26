@@ -1,6 +1,6 @@
 html{
 	font-style: avenir;
-	background-color: #F3F5EB;
+	background-color: #1B1C22;
 }
 
 body{
@@ -11,7 +11,7 @@ body{
 nav{
 	padding: 20;
 	text-align: center;
-    background-color: #305252;
+    background-color: #39D0B2;
 }
 
 nav li {
@@ -21,7 +21,7 @@ nav li {
 
 nav a{
 	text-decoration: none;
-	color: #FF8E72;
+	color: #1B1C22;
 	font-weight: bold;
 	font-size: 12px;
 	display:inline-block;
@@ -29,8 +29,8 @@ nav a{
 }
 
 nav a:hover {
-	color: #F2F5EA;
-	font-size: 16px;
+	color: #1B1C22;
+	text-decoration: underline;
 }
 
 a{
@@ -74,7 +74,7 @@ a{
   -webkit-transform: translateZ(0); backface-visibility: hidden;
   scale(1.0, 1.0);
   transform: translateZ(0);
-  background:#2C363F url(https://images.unsplash.com/photo-1587614382346-4ec70e388b28?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80) 50% 0 no-repeat;
+  background:#1B1C22 url(https://images.unsplash.com/photo-1587614382346-4ec70e388b28?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80) 50% 0 no-repeat;
   background-size:100%;
   background-attachment:fixed;
   animation: grow 360s  linear 10ms infinite;
@@ -112,30 +112,37 @@ h1{
 	margin-bottom: 40px;
 }
 
-h3{
+h2{
 	font-size: 24px;
 	font-weight: bold;
+  color: #39D0B2;
+}
+
+p{
+  color: #FCFCFC;
 }
 
 .site-footer{
-  background-color:#305252;
-  padding:45px 0 20px;
+  background-color:#1B1C22;
+  padding:45px 100px 20px 100px;
   font-size:15px;
   line-height:24px;
-  color:#FF8E72;
+  color:#39D0B2;
+}
+.site-footer hr:first-of-type{
+  border-top-color:#FCFCFC;
+  opacity:15;
+  margin-bottom:30px;
 }
 
 .site-footer hr{
-  border-top-color:#bbb;
+  border-top-color:#FCFCFC;
   opacity:15
-}
-
-.site-footer hr.small{
-  margin:20px 0
+  margin:30px 
 }
 
 .site-footer h6{
-  color:#FF8E72;
+  color:#FCFCFC;
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
@@ -143,7 +150,7 @@ h3{
 }
 
 .site-footer a{
-  color:#FF8E72;
+  color:#39D0B2;
 }
 
 .site-footer a:hover{
@@ -161,7 +168,7 @@ h3{
 }
 
 .footer-links a{
-  color:#FF8E72
+  color:#39D0B2
 }
 
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover{
@@ -194,13 +201,22 @@ h3{
 
 .col1{
 	text-align: left;
+  margin-right: 30px;
 }
 
 .col2{
 	text-align: left;
+  margin-left: 30px;
 }
 
+.row_footer{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  margin-bottom: 30px;
 
+}
 
 
 
