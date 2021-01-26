@@ -1,5 +1,6 @@
 html{
 	font-style: avenir;
+	background-color: #F3F5EB;
 }
 
 body{
@@ -8,8 +9,7 @@ body{
 }
 
 nav{
-	padding: 10;
-	margin: 0;
+	padding: 20;
 	text-align: center;
     background-color: #2C363F;
 }
@@ -29,18 +29,17 @@ nav a{
 }
 
 nav a:hover {
-	color: #F2F5EA
+	color: #F2F5EA;
+	font-size: 16px;
 }
 
+a{
+	text-decoration: none;
+}
 
 .container{
 	padding: 40;
 }
-
-
-
-
-
 
 @media (min-width: 500px) and (max-width: 600px){
 	.container{
