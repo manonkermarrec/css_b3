@@ -46,13 +46,16 @@ h1{
 	color: #39D0B2;
 	font-size: 28px;
 	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 h2{
 	font-size: 24px;
 	font-weight: bold;
   	color: #39D0B2;
-  	justify-content: center;
+  	text-align: center;
+  	column-span: all;
+  	margin-bottom: 20px;
 }
 
 h3{
@@ -60,11 +63,15 @@ h3{
   	color: #FCFCFC;
 }
 
+hr{
+	width: 1200px;
+	border-top: 1px solid #313233;
+}
 .hero{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 30px;
+  	padding:5% 10%;
 }
 
 .hero img, .hero .hero_text{
@@ -158,61 +165,113 @@ path.two {
     }
 }
 
-.arrow-down {
-  position: relative;
-  padding: 5px;
-  margin: 30px auto;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  transition: all 0.2s linear;
-}
-
-.button-down:hover {
-  transform: translate3d(0, 10px, 0);
-}
-
-.arrow-down::after {
-  content: "";
-  position: absolute;
-  left: 17px;
-  z-index: 11;
-  display: block;
-  width: 25px;
-  height: 25px;
-  border-top: 2px solid #fff;
-  border-left: 2px solid #fff;
-  top: 10px;
-  transform: rotate(225deg);
-}
-
 .content{
 	column-count: 3;
 	-moz-column-count: 3;
 	-webkit-column-count: 3;
-	margin: 20 30 100 30;
+  	padding:5% 10%;
 }
 
+.famous-people{
+	margin-bottom: 80px;
+}
 
+.famous-people h2{
+	margin-top: 80px;
+}
+.famous-people_list{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
 
 .famous-people img{
-	width:200px;
-   clip-path:ellipse(50% 50%);
+   	clip-path:ellipse(50% 50%);
+   	width:200px;
+	height:200px;
 }
 
+.famousplus {
+	margin: auto;
+	display: block;
+	border: 2px solid #39D0B2;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #1B1C22;
+}
 
+.famousplus:hover {
+    background-color: rgba(57, 208, 178, 1);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
 
+.famousplus:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
 
+figcaption{
+	display: block;
+	color: #fff;
+	margin-top: 20px
+}
 
+figure {
+  float: right;
+  text-align: center;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+  margin-bottom: 40px;
+}
 
+.lastone img, .lastone .lastone_text{
+	max-width: 76%;
+}
 
+.lastone_text p{
+	margin-bottom: 40px;
+}
+.lastone{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  	padding:5% 10%;
+}
 
+.wrapper3 {
+  display: flex;
+  justify-content: center;
+}
 
+.voirplus {
+	margin: auto;
+	display: block;
+	border: 2px solid #39D0B2;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #1B1C22;
+}
 
+.voirplus:hover {
+    background-color: rgba(57, 208, 178, 1);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
 
-
-
-
+.voirplus:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
 
 .site-footer{
   background-color:#1B1C22;
