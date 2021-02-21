@@ -38,6 +38,7 @@ nav a:hover {
 
 a{
 	text-decoration: none;
+  color: white;
 }
 
 p{
@@ -183,12 +184,17 @@ path.two {
   background: #EBE7F2;
 }
 
+.title{
+margin-top: 40px;
+}
+
 .famous-people{
-	margin-bottom: 80px;
+	margin-bottom: 40px;
+  display:flex;
 }
 
 .famous-people_list{
-  margin: auto;
+    margin: auto;
     display: block;
     text-align: center;
     position: relative;
@@ -238,11 +244,12 @@ path.two {
 }
 
 .famousplus {
-  margin: auto;
   display: block;
+  width: fit-content;
   border: none;
   line-height: 2.5;
   padding: 8px 40px;
+  margin: 0 auto 72px auto;
   font-size: 1rem;
   text-align: center;
   color: white;
@@ -288,6 +295,7 @@ path.two {
 .voirplus {
   margin: auto;
   display: block;
+  width: fit-content;
   border: none;
   line-height: 2.5;
   padding: 8px 40px;

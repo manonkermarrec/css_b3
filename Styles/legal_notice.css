@@ -125,6 +125,12 @@ p{
   color: black;
 }
 
+ul{
+list-style-type: circle;
+}
+
+
+
 .site-footer{
   background-color:#6D2DF5;
   padding:45px 100px 20px 100px;
