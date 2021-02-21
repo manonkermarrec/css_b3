@@ -136,9 +136,14 @@ hr{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.hero_text a{
+  color: white;
+}
+
 .voir {
   margin: auto;
   display: block;
+  width: fit-content;
   border: none;
   line-height: 2.5;
   padding: 8px 40px;
